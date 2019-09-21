@@ -23,5 +23,5 @@ PONTEIROS
                 int *p / int a / float b     - p = &a OK    -   p = &b ERRADO
 
         2 - SOMA e SUBTRAÇÃO:
-            São as únicas operações matemáticas que podemos fazer com um vetor
+            São as únicas operações matemáticas que podemos fazer com um vetor - VALORES INTEIROS A UM PONTEIRO
     * criando um método que é um PONTEIRO do tipo PILHA e recebe como parâmetro um inteiro = Pilha * cria_pilha(int)
