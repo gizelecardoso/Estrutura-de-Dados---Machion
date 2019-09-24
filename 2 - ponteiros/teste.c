@@ -13,18 +13,21 @@ int main(){
     printf("%d\n", *p);
     printf("%d\n", p);
 
-    *p = 12;
-    printf("%d\n", *p);
 
-    
-    c++;
-    printf("%d\n", *c);
+    void *pp;
+    int *p1, p2 = 10;
+    p1 = &p2;
+    pp = &p2;
+    printf("Endereco em pp: %p \n", pp);
+    pp = &p1;
+    printf("Endereco em pp: %p \n", pp);
+    pp = p1;
+    printf("Endereco em pp: %p \n", pp);
 
-    c = c + 15;
-    printf("%d\n", *c);
+    pp = &p2;
+    //printf("Conteudo: %d \n", *pp); ERRO
+    printf("Conteudo: %d \n", *(int *)pp);
 
-    c = c - 2;
-    printf("%d\n", *c);
 
     return 0;
 }
