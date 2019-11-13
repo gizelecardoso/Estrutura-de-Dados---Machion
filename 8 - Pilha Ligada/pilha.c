@@ -34,6 +34,7 @@ int push (int i, Pilha *l) {
 	}
 	return 0;
 }
+
 void mostra_pilha (Pilha *l) {
 	struct no * aux;
 	if (pilha_vazia(l)) {

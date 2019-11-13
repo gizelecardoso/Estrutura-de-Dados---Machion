@@ -1,6 +1,6 @@
 [Project]
-FileName=pilha_ligada.dev
-Name=pilha_ligada
+FileName=fila_ligada.dev
+Name=fila_ligada
 Type=1
 Ver=2
 ObjFiles=

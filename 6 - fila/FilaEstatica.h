@@ -24,4 +24,6 @@ void libera_fila(Fila* fila);
 
 int tamanho_fila(Fila* fi);
 
+int insere_fila(Fila * fi, struct aluno al);
+
 
