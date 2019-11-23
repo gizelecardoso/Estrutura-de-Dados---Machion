@@ -1,0 +1,28 @@
+Exercicios
+
+1) Considere Filas sobre Vetor e sobre Lista Ligada, construir uma função 
+    a) para furar a fila
+    b) o enésimo elemento da fila desiste.
+
+2) Considerando Listas Ligadas Simples e Duplas fazer uma função para:
+    a) Concatenar a menor lista na maior
+    b) Mesclar duas Listas considerando somente a ordem entre os elementos
+        truque - duas listas verificar conforme a menor.
+
+3) Considerando duas Listas Ordenadas, mesclar os seus elementos mantendo a ordem.
+    truque - consultar os primeiros de cada lista - para manter a ordem.
+
+
+DESAFIO
+
+    Criar uma Nova Estrutura de NÓ, que armazena as seguintes informações:
+
+        a) info : int;
+        b) cont : int;
+        c) prox (e ou) ant : ponteiros  pode usar a lista dupla
+
+    Criar uma Lista Ligada com os métodos de inserção e remoção de maneira que, 
+    quando um elemento for inserido mais de uma vez só o seu contador vai ser alterado.
+    Vale a mesma lógica para remoção.
+
+        segredo do sucesso - algoritmo de busca, se encontrar altera o contador, se não insere o elemento.

@@ -1,0 +1,18 @@
+Ver. Árvore C (Não teremos a aula).
+
+https://www.urionlinejudge.com.br/judge/pt/problems/view/1119
+
+Para aprender:
+
+Construir uma função para cada problema a seguir:
+
+1) Remover um elemento da lista (Ex.: Elemento 7). Caso o elemento não esteja na lista devolver fracasso.
+
+2) Remover todas as ocorrências de um elemento da lista. A função devolve quantos elementos foram removidos. (Dica: Fazer função de busca).
+
+3) Remover um elemento de uma determinada posição. Se a posição for maior que o tamanho da lista, devolver fracasso. 
+
+4) Inserir um elemento em uma determinada posição. Se a posição for maior que o tamanho da lista, continue contando.
+
+5) Inserir elementos na ordem topológica (Ex.: 1, 2, 3). Observação: Essa função só funciona quando os elementos estão na ordem.
+
